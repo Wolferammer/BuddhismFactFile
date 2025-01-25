@@ -1,0 +1,89 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background: #fdf6e3;
+    color: #333;
+    font-size: 18px; /* Base font size for readability */
+}
+
+header {
+    background: #FFD700; /* Golden yellow */
+    color: #4B2E83; /* Deep purple */
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem; /* Header font size */
+    font-weight: 700; /* Bold for emphasis */
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.8rem; /* More padding for better spacing */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+
+section:hover {
+    transform: scale(1.05); /* Slightly larger on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #4B2E83;
+    font-weight: 600; /* Semi-bold section titles */
+    font-size: 1.8rem; /* Larger section titles */
+}
+
+p {
+    font-size: 1.2rem; /* Larger paragraph text */
+    font-weight: 400; /* Regular weight for smooth readability */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 1.5rem 0; /* More space around images */
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #FFD700;
+    color: #4B2E83;
+}
+
+.credits {
+    margin: 0;
+    font-size: 1.3rem; /* Bigger footer text */
+    font-weight: 500; /* Semi-bold for emphasis */
+}
+
+/* Header Scroll Effect */
+header.scrolled {
+    background: #D4AF37; /* Slightly darker golden yellow */
+}
+
+/* Accessibility Enhancements */
+a {
+    color: #4B2E83;
+    text-decoration: none;
+    font-weight: 600; /* Bold links */
+}

@@ -1,0 +1,120 @@
+/* General Layout */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F3F4F6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #4B2E83;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header nav a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Mini Quiz Section */
+.mini-quiz {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mini-quiz h2 {
+    font-size: 1.8rem;
+    color: #4B2E83;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.mini-quiz p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.question {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.question label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #4B2E83;
+}
+
+.question input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.question input:focus {
+    outline: none;
+    border-color: #FFD700;
+}
+
+button#submit-quiz {
+    background: #FFD700;
+    color: #4B2E83;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button#submit-quiz:hover {
+    background: #D4AF37;
+}
+
+#quiz-feedback {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #4B2E83;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+}
+
+button#submit-quiz:focus {
+    outline: 3px solid #FFD700;
+}
